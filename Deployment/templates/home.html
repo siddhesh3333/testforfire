@@ -1,0 +1,24 @@
+<html>
+<body>
+    <div class="login">
+        <h1>FWI Predication </h1>
+
+        <form action="/predictdata" method="post">
+  Temperature: <input type="text" name="Temperature"><br>
+  RH: <input type="text" name="RH"><br>
+  Ws: <input type="text" name="Ws"><br>
+  Rain: <input type="text" name="Rain"><br>
+  FFMC: <input type="text" name="FFMC"><br>
+  DMC: <input type="text" name="DMC"><br>
+  ISI: <input type="text" name="ISI"><br>
+  Classes: <input type="text" name="Classes"><br>
+  Region: <input type="text" name="Region"><br>
+  <input type="submit" value="Predict">
+</form>
+
+
+<h2>
+    THE FWI predication is{{results}}
+</h2>
+</body>
+</html>
